@@ -10,16 +10,20 @@ numbers = [100152, 121802, 140047, 92337, 101891, 122051, 50384, 53628, 139979, 
            96615, 145935, 75078, 96752, 118779, 68090, 95136, 82132, 149426, 51496, 70123, 129725, 63022, 74422,
            143216, 139349]
 
-
-def calc_fuel():
-    answer = 0
-    for index in range(len(numbers)):
-        answer += (math.floor(numbers[index] / 3)) - 2
-    print(answer)
+# Part 1
 
 
 def calc(number):
     return (math.floor(number / 3)) - 2
+
+
+def calc_fuel():
+    answer = 0
+    for index in range(len(numbers)):
+        answer += calc(numbers[index])
+    return answer
+
+# Part 2
 
 
 def calc_fuel_modules():
@@ -36,26 +40,13 @@ def calc_fuel_modules():
         answertemp += fuel
         answer += answertemp
 
-    print("All modules:", answer)
+    return answer
 
 
-calc_fuel_modules()
+if __name__ == "__main__":
 
+    print("~ My results for Day 1 ~")
 
-def calc_test():
-    answer = 0
-    module = 122
-    fuel = (math.floor(module / 3)) - 2
+    print("Result for Part 1: ", calc_fuel())
+    print("Result for Part 2; All Modules: ", calc_fuel_modules())
 
-    if fuel > 6:
-
-        while fuel > 6:
-            answer += fuel
-            fuel = (math.floor(fuel / 3)) - 2
-
-        else:
-            answer += fuel
-            print(answer)
-
-
-calc_test()

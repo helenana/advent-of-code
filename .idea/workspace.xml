@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="46ea6258-8f74-4d81-b74c-b98d60f50431" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode/Day_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode/Day_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode/Day_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode/Day_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day_2 (1)">
+  <component name="RunManager" selected="Python.Day_1">
     <configuration name="Day_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Day_2 (1)" />
         <item itemvalue="Python.Day_1" />
+        <item itemvalue="Python.Day_2 (1)" />
         <item itemvalue="Python.Day_2" />
       </list>
     </recent_temporary>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575309206288</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed Day 2">
+      <created>1575310790823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575310790823</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Day_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Day_1" />
+    <MESSAGE value="Fixed Day 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Day 2" />
   </component>
 </project>
