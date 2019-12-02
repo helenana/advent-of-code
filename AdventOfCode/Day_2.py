@@ -1,4 +1,4 @@
-numbers = [1, 12, 2, 3,
+truenumbers = [1, 12, 2, 3,
            1, 1, 2, 3,
            1, 3, 4, 3,
            1, 5, 0, 3,
@@ -40,28 +40,29 @@ numbers = [1, 12, 2, 3,
            0]
 
 # Day 2 - Part 1
+# Just a small test to see if I can print the numbers correctly
 
 
 def print_numbers():
 
     count = 0
 
-    while count < len(numbers):
-        print(numbers[count])
+    while count < len(truenumbers):
+        print(truenumbers[count])
         count += 4
 
 
 def intcode(noun: int, verb: int) -> int:
+
+    # Copy truenumbers Array to new Array
+
+    numbers = truenumbers[:]
 
     count = 0
     numbers[1] = noun
     numbers[2] = verb
 
     while count < len(numbers):
-
-        pos1 = 0
-        pos2 = 0
-        pos3 = 0
 
         if numbers[count] == 1:
             pos1 = numbers[count+1]
@@ -93,19 +94,26 @@ def print_loop():
         for j in range(100):
             print(i, j)
 
-# Why is find_result not working? Running out of ideas
-
 
 def find_result(target: int):
 
     for i in range(100):
+
         for j in range(100):
-            if target == intcode(i, j):
+            result = intcode(i, j)
+
+            if target == result:
                 return i * 100 + j
 
 
 if __name__ == "__main__":
 
-    # Found the numbers with Bruteforce... find_result will be fixed
-    print(intcode(49, 25))
-    print(find_result(19690720))
+    print("~ My results ~")
+
+    # Result for Part 1:
+
+    print("Result for Part 1: ", intcode(12, 2))
+
+    # Result for Part 2:
+
+    print("Result for Part 2: ", find_result(19690720))
