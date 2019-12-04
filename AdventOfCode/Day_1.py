@@ -45,7 +45,7 @@ def calc_fuel_modules():
 
 if __name__ == "__main__":
 
-    print("~ My results for Day 1 ~")
+    print("~ My results - Day 1 ~")
 
     print("Result for Part 1: ", calc_fuel())
     print("Result for Part 2; All Modules: ", calc_fuel_modules())

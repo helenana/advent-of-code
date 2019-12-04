@@ -105,7 +105,7 @@ if __name__ == "__main__":
     part1 = min([abs(x) + abs(y) for (x, y) in combined_paths])
     part2 = min([path1[p] + path2[p] for p in combined_paths])
 
-    print("~ My results ~")
+    print("~ My results - Day 3 ~")
 
     print("Solution for Part 1 - Manhattan Distance: ", part1)
 

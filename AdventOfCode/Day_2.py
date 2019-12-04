@@ -108,7 +108,7 @@ def find_result(target: int):
 
 if __name__ == "__main__":
 
-    print("~ My results ~")
+    print("~ My results - Day 2 ~")
 
     # Result for Part 1:
 
