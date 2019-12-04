@@ -46,7 +46,8 @@ def check_password(password, part) -> bool:
                 (pwlist[4] == pwlist[5]) & (pwlist[4] != pwlist[3]):
             return True
 
-        else: return False
+        else:
+            return False
 
     # For part one:
     if part == 1:
