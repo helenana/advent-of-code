@@ -72,7 +72,8 @@ if __name__ == "__main__":
 
     validpwspt1 = 0
     validpwspt2 = 0
-    myrange = range(165432, 707912)
+#    myrange = range(165432, 707912)
+    myrange = range(347312, 805915)
 
     for i in myrange:
 
