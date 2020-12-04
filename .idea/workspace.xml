@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ea6258-8f74-4d81-b74c-b98d60f50431" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2019/Day_8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019/Day_8_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019/input_day8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/Day_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/input_day1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/Day_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/input_day2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018/Day_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2018/Day_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019/Day_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/Day_4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day_1">
+  <component name="RunManager" selected="Python.Day_2 (1)">
     <configuration name="Day_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Day_2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,11 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2020" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018/Day_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2020/Day_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Day_2 (1)" />
         <item itemvalue="Python.Day_1" />
         <item itemvalue="Python.Day_4 (1)" />
         <item itemvalue="Python.Day_8_1" />
         <item itemvalue="Python.Day_8" />
-        <item itemvalue="Python.Day_2" />
       </list>
     </recent_temporary>
   </component>
